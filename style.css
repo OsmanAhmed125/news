@@ -1,0 +1,82 @@
+:root{
+    --c--:#fff;
+    --c2:black;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #eee;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+nav{
+    padding: 22px;
+}
+
+img{
+    border-radius: 50px;
+}
+.grit{
+    text-align: center;
+    margin-top: 45px;
+    padding: 10px;
+}
+.sosciety{
+    background-color: #eee;
+}
+
+ .container{
+    margin: 18px;
+}
+
+.sosciety .box{
+    padding: 22px;
+box-shadow:0 2px 4px rgb(0 0 0 / 7%);
+border-radius: 7px;
+position: relative;
+
+}
+.sosciety .box img{
+  position: absolute;
+  right: -10px;
+  top: -50px;
+  width: 100px;
+  height: 100px;
+  border-radius:45% ;
+  border: 7px solid #eee;
+}
+.sosciety .box h3{
+    margin: 0 0 10px;
+   
+   
+}
+.sosciety .box .title{
+    color: #777;
+    margin-bottom:12px;
+    display: block;
+
+}
+
+.box p{
+    line-height: 1.5;
+    color:black; 
+}
+
+.carousel-inner img {
+    width: 31vh;
+    height: 30vh;
+}
+    
+.carousel-inner{
+    display: flex;
+    justify-content: center;
+}    
+
+
+
+
