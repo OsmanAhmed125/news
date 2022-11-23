@@ -1,12 +1,8 @@
-:root{
-    --c--:#fff;
-    --c2:black;
-}
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
 body{
     height: 100vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #eee;
 }
 a{
     text-decoration: none;
@@ -14,69 +10,88 @@ a{
 }
 
 
-nav{
-    padding: 22px;
+.navbar {
+padding-top: 5vh !important;
+
 }
 
-img{
-    border-radius: 50px;
+nav ul li{
+    display: inline-block;
+    margin: 0 6px;
+    text-transform: uppercase;
 }
+nav ul li a,.active{
+    color: rgba(255, 255, 255, 0.842);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color: white;
+    position: sticky;
+}
+
 .grit{
     text-align: center;
     margin-top: 45px;
     padding: 10px;
+ font-family: 'Times New Roman', Times, serif;
 }
-.sosciety{
-    background-color: #eee;
+.content .go-down{
+    color: blue;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(10px);
 }
 
- .container{
-    margin: 18px;
-}
-
-.sosciety .box{
+ .box{
     padding: 22px;
 box-shadow:0 2px 4px rgb(0 0 0 / 7%);
+background-color: white;
 border-radius: 7px;
 position: relative;
 
 }
-.sosciety .box img{
+ .box img{
   position: absolute;
   right: -10px;
   top: -50px;
   width: 100px;
   height: 100px;
-  border-radius:45% ;
+  border-radius: 50px;
   border: 7px solid #eee;
+
 }
-.sosciety .box h3{
+.box h3{
     margin: 0 0 10px;
    
    
 }
-.sosciety .box .title{
+ .box .title{
     color: #777;
     margin-bottom:12px;
     display: block;
 
 }
 
-.box p{
+ .box p{
     line-height: 1.5;
-    color:black; 
-}
+    color:#777;
 
+
+}
 .carousel-inner img {
-    width: 31vh;
+    width: 50vh;
     height: 30vh;
 }
     
 .carousel-inner{
     display: flex;
     justify-content: center;
+    padding-right: 50vh;
+    background: linear-gradient(#1257fe,#eee);
+    margin-top: 25px;
+    padding-top: 30px;
 }    
-
-
-
-
+    
